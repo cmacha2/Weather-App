@@ -1,12 +1,12 @@
 import React from 'react';
-import estilos from './Cards.module.css';
+import  './Cards.css';
 
 import Card from './Card.jsx';
 
-export default function Cards({cities, onClose}) {
+export default function Cards({cities, onClose,id}) {
   if(cities){
     return (
-      <div className={estilos.cards}>
+      <div className="cards">
         {cities.map(c => <Card
             max={c.max}
             min={c.min}

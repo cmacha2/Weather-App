@@ -1,0 +1,19 @@
+.nav-div {
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.095);
+    text-decoration: none;
+}
+
+.text-nav{
+    position: relative;
+    left: -48.5rem;
+    top: -1.55px
+}
+
+.align:hover{
+    text-decoration: none;
+    background-color: rgb(0, 20, 234);
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.095);
+    border-radius: 7px;
+}

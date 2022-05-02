@@ -3,12 +3,18 @@
   width: 18rem;
 /*   border: 1px solid; */
   /* background-color: rgb(220, 255, 255); */
-  backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.129);  
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.196);  
+  text-decoration: none;
+  border-radius: 10px;
+}
+.card:hover{
+  opacity: 0.8;
 }
 
 .card-title {
   margin-bottom: 15px;
+  text-decoration: none;
 }
 
 #closeIcon {
@@ -17,8 +23,13 @@
   margin-right: 8px;
   margin-top: 8px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .card-body {
+  color: #257ed7 !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
   margin-top: 0px !important;
   padding-top: 0px !important;
 }
+
