@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html body {
+  background-image: url("./components/carretera.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    align-items: center;
+    justify-content: center;
+}
